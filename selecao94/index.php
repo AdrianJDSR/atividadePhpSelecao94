@@ -12,11 +12,11 @@ echo '<table style="background-color: #2D57DF">
         <td>Nome: </td>
         <td>Numero: </td>
         </tr>
-</table>';
+';
 
 function selecao94($nome, $numero, $corttt) { 
-    echo '<table style="background-color: '.$corttt.';">
-    <tr>
+    echo '<table>
+    <tr style="background-color: '.$corttt.';">
         <td>'.$nome.' </td>
         <td>'.$numero.' </td>
     </tr>
@@ -34,3 +34,4 @@ selecao94("Marizinho", 17, "yellow");
 selecao94("Zinho", 9, "green");
 selecao94("Romario", 11, "yellow");
 selecao94("Bebeto", 7, "green");
+echo'</table>';
