@@ -3,6 +3,7 @@ echo '<style>
 body {
     background-image: url(romario.jpg);
     background-repeat: no-repeat;
+    background: size 1000%;
     text-align: center;
 }
 </style>';
@@ -15,12 +16,12 @@ echo '<table style="background-color: #2D57DF">
 ';
 
 function selecao94($nome, $numero, $corttt) { 
-    echo '<table>
+    echo '
     <tr style="background-color: '.$corttt.';">
         <td>'.$nome.' </td>
         <td>'.$numero.' </td>
     </tr>
-    </table>';
+';
 }
 
 selecao94("Tafarel", 1, "green");
@@ -34,4 +35,4 @@ selecao94("Marizinho", 17, "yellow");
 selecao94("Zinho", 9, "green");
 selecao94("Romario", 11, "yellow");
 selecao94("Bebeto", 7, "green");
-echo'</table>';
+echo"</table>";
