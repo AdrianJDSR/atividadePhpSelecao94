@@ -3,7 +3,6 @@ echo '<style>
 body {
     background-image: url(romario.jpg);
     background-repeat: no-repeat;
-    background: size 1000%;
     text-align: center;
 }
 </style>';
